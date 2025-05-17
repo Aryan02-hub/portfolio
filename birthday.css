@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    margin: 0;
+    padding: 0;
+    background-color: skyblue;
+    border: border-box;
+}
+h1{
+    text-align: center;
+    animation: blinkColor 1s infinite;
+    text-decoration: wavy underline;
+    background-color: black;
+    margin-bottom: 0;
+} 
+
+@keyframes blinkColor{
+    0% {color:red;}
+    33% {color:green;}
+    66% {color:blue;}
+    100% {color:red;}
+    87% { color:yellow;}
+}
+#navbar{
+    background-color: rgb(39,38,38);
+    color: white;
+    height: 50px;
+    padding: 0;
+}
+.nav{
+    margin-right: 200px;
+    color:white;
+}
+#logo{
+    color:coral;
+    font-weight: 800;
+    margin-right: 200px;
+}
+main{
+    height: 500px;
+}
+
+footer{
+    background-color: rgb(39, 38, 38);
+    color: white;
+    text-align: center;
+}
+

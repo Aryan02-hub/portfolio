@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            background-color: rgb(31, 26, 26);
+            text-align: center;
+        }
+        p{
+            color: white;
+            font-size: xx-large;
+        }
+        #id2{
+            color:red;
+            font-size: larger;
+        }
+        #id1{
+            color:white;
+            font-size: larger;
+        }
+        button{
+            background-color: deeppink;
+            color: black;
+    
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <h1 style="text-align: center; color: aquamarine; text-decoration:wavy;">You can contact with me</h1>
+    <h2 style="text-align: center; color:greenyellow; text-decoration: underline;">Contact information</h2>
+    <p>>&#9742; Contact Number: 8789027938</p>
+    <p>&#9993; E-mail: #####</p>
+    <p><i class="fa fa-whatsapp" aria-hidden="true"></i> WhatsApp: 8789027938</p>
+    <p><i class="fa fa-instagram" aria-hidden="true"></i> Insta-id: ######</p>
+    <p>&#xf09a; Facebook: #####</p>
+    <br>
+    <p>Message Box: <input type="text" id="id2" placeholder="Your Name "> </p>
+    <p><textarea name="Message" id="id1" placeholder="Enter your Message"></textarea></p>
+    <button onclick="clearFields()">Submit</button>
+    <script>
+        function clearFields() {
+            document.getElementById("id1").value="";
+            document.getElementById("id2").value="";
+        }
+    </script>
+</body>
+</html>
